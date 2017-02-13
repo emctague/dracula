@@ -31,7 +31,12 @@ button {
 
 /* Stuff to hide. */
 .blank controls, .setup controls, .blank #setup, .count #setup, .blank #prompt,
-.count #prompt, .blank #startprog, .count #startprog { display: none; }
+.count #prompt, .blank #startprog, .count #startprog, .blank #guide,
+.setup #guide { display: none; }
+
+#guide {
+  margin-top: 1em;
+}
 
 #prompt {
   font-size: 1.5em;
