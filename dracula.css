@@ -13,8 +13,7 @@ body {
 counter {
   font-size: 5em;
   padding: 1em;
-  border: 2px solid #fff;
-  border-radius: 1em; }
+  border: 2px solid #fff; }
 counter:hover { background: rgba(0,0,0,0.1); }
 counter:active { background: rgba(0,0,0,0.1); }
 .blank counter, .setup counter { display: none; }
@@ -25,7 +24,6 @@ button {
   color: #fff;
   border: 2px solid #fff;
   padding: 1em;
-  border-radius: 1em;
   margin-top: 1em;
   font-weight: bold; }
 
@@ -35,13 +33,11 @@ button {
 .setup #guide { display: none; }
 
 #guide {
-  margin-top: 1em;
-}
+  margin-top: 1em; }
 
 #prompt {
   font-size: 1.5em;
-  margin-bottom: 1em;
-}
+  margin-bottom: 1em; }
 
 #setup {
   border: 2px solid #fff;
@@ -49,8 +45,7 @@ button {
   border-radius: 1em;
   background: none;
   color: #fff;
-  font-size: 1.3em;
-}
+  font-size: 1.3em; }
 
 #credit {
   position: fixed;
@@ -60,5 +55,4 @@ button {
   padding: 1em;
   text-align: center;
   color: #fff;
-  text-decoration: none;
-}
+  text-decoration: none; }
